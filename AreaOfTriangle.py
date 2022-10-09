@@ -1,4 +1,3 @@
-import math
 a=int(input("enter length of side a: "))
 b=int(input("enter length of side b: "))
 c=int(input("enter the length of side c: "))
