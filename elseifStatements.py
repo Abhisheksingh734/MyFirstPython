@@ -1,6 +1,3 @@
-from pickletools import markobject
-
-
 MarksObtained = int(input("Enter your marks out of 100: "))
 
 if MarksObtained >90 and MarksObtained<=100:

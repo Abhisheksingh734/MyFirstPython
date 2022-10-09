@@ -7,7 +7,7 @@ salary= int(input("enter your salary: "))
 time= int(input("Time spent: "))
 
 if time<6 and time>0:
-    print("your bonus is",salary+salary/20)
+    print("your bonus is",salary+salary*0.05)
 elif time>=6 and time<=10:
     print("your bonus is",salary+(salary)*0.08)
 elif time<0:

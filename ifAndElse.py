@@ -1,7 +1,10 @@
-a = int(input("enter first number: "))
-b =int(input("enter second number: ")) 
+from re import X
 
-if a > b:
-    print(a,"is greater than",b)
+
+X = float(input("enter first number: "))
+y =float(input("enter second number: ")) 
+
+if X < y:
+    print("YAYY")
 else:
-    print(a,"is smaller than",b)
+    print("NAYY")
