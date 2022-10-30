@@ -1,17 +1,10 @@
-# class Employee:
-#     company="Google"
 
-# abhishek=Employee()
-# print(abhishek.company)
-# Employee.company="youtube"
-# print(abhishek.company)
 
-n=5
-for i in range(n):
-    for j in range(i+1):
-        print(" ",end="")
-    for j in range(i,n):
-        print("*",end="")
-    for j in range(i+1,n):
-        print("*",end="")
-    print()
+
+myDict={ "national bird of india" : "Peacock" ,
+"ansndf" : "adfasdf",
+
+
+}
+for i  in myDict:
+    print(i.getkeys())
