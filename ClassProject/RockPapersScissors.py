@@ -37,3 +37,5 @@ elif comp=="scissors":
         print("You win! rock smashes scissors")
     else:
         print("You entered wrong data Choose from rock paper and scissors")
+
+        
