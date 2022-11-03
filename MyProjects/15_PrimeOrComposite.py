@@ -19,3 +19,4 @@ for i in range(A,B+1):
         countComposite+=1
 
 print(f"Result : {countPrime} Prime and {countComposite} Composite numbers are in the range")
+
