@@ -6,5 +6,5 @@ myDict={ "national bird of india" : "Peacock" ,
 
 
 }
-for i  in myDict:
-    print(i.getkeys())
+
+print(myDict.keys())
