@@ -46,3 +46,5 @@ print(list(map(lambda a:a*3,list1)))
 list2=[34,88,30,22,10,15,18]
 print(list(filter(lambda a:a%5==0,list2)))
 
+
+
