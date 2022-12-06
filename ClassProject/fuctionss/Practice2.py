@@ -32,11 +32,20 @@
 
 
 
+# def name(x):
+#     return lambda a: a-x
 
-def name(x):
-    return lambda a: a-x
+
+# num=name(10)
+# print(num(7))
 
 
-num=name(10)
-print(num(7))
 
+
+
+
+
+
+
+x=lambda num1,num2: print(num1+num2)
+x(3,4)
