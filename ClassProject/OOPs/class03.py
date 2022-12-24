@@ -209,11 +209,13 @@ class Person:
 person1 = Person("Abhishek", 19)
 print(person1.getName())
 print(person1.getAge())
-
-person1.setName("John")
-person1.setAge(20)
-print(person1.getName())
-print(person1.getAge())
-
-person1._Person__name = "Abhi" #----------------how to change
+# print(person1.__name)
 print(person1._Person__name)
+
+# person1.setName("John")
+# person1.setAge(20)
+# print(person1.getName())
+# print(person1.getAge())
+
+# person1._Person__name = "Abhi" #----------------how to change
+# print(person1._Person__name)
